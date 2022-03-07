@@ -1,0 +1,168 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"backgroundTextStyle": "dark",
+				"navigationBarBackgroundColor": "white",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "buleqr"
+			}
+		},
+		{
+			"path": "pages/logs/logs",
+			"style": {
+				"navigationBarTitleText": "查看启动日志"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/search-page/search-page",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "搜索",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/binding-email/binding-email",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "换绑邮箱",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/search-prod-show/search-prod-show",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "搜索结果",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/recent-news/recent-news",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "最新公告",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/news-detail/news-detail",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "文章详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/recent-detail/recent-detail",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "公告详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/accountLogin/accountLogin",
+			"style": {
+				"backgroundTextStyle": "light",
+				// "navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fafafa"
+			}
+		},
+		{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/guide/guide",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "欢迎使用buleqr",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webviewPage/webviewPage",
+            "style" :                                                                                    
+            {
+                //"navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/updatePwdReq/updatePwdReq",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/retrievePassword/retrievePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#3a86b9",
+		"color": "#b8b8b8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/images/tabbar/homepage.png",
+				"selectedIconPath": "/static/images/tabbar/homepage-sel.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/images/tabbar/user.png",
+				"selectedIconPath": "/static/images/tabbar/user-sel.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}
