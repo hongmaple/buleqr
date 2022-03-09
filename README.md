@@ -14,11 +14,15 @@
 
 #### 安装教程
 
-创建并导入数据库（qqchat）qq-chat-project/qqchat/sql/qqchat.sql
-打开idea导入qqchat 下载依赖
-修改配置文件，配置mysql连接，redis连接，文件上传地址，rsa密钥地址
-运行后端服务
-打开HBuilder X导入qqchat-uniapp 点击左上方运行到本地浏览器
+1.创建并导入数据库（buleqr）buleqr-project/buleqr/sql/buleqr.sql
+
+2.打开idea导入buleqr下载依赖
+
+3.修改配置文件，配置mysql连接，redis连接，文件上传地址，rsa密钥地址
+
+4.运行后端服务
+
+5.打开HBuilder X导入buleqr-uniapp 点击左上方运行到本地浏览器
 
 #### 使用说明
 
@@ -36,9 +40,4 @@
 
 #### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  本应用采用二维码扫码注册并绑定二维码的方式实现注册
